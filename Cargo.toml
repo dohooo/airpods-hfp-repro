@@ -1,0 +1,8 @@
+[package]
+name = "airpods-hfp-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Same cpal version Handy 0.10.0 ships.
+cpal = "=0.18.2"
