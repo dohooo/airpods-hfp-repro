@@ -1,6 +1,6 @@
 # airpods-hfp-repro
 
-Test program for a [Handy](https://github.com/cjpais/Handy) bug report: on macOS, the AirPods mic goes silent a few seconds into a recording.
+Test program for a [Handy](https://github.com/cjpais/Handy) bug report ([cjpais/Handy#2472](https://github.com/cjpais/Handy/issues/2472)): on macOS, the AirPods mic goes silent a few seconds into a recording.
 
 It opens the same kind of streams Handy 0.10.0 opens when a recording starts, using the same cpal version (0.18.2) and nothing else. Twice a second it prints the mic level, and at the end it prints what coreaudiod and bluetoothd logged while it ran (`log show`, filtered to the call link lines, Bluetooth address masked).
 
